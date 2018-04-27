@@ -11,7 +11,7 @@ public class Fatorial {
 		if (num <=1 )  return 1;
 		else  return num * fatorial(num - 1);
 	}
-	
+	//versão iterativa do calculo fatorial, incluindo o teste n-0 
 	public int calcularFatorial(int n) throws IllegalArgumentException {
 		if (n < 0)
 			throw new IllegalArgumentException("nao existe fatorial apra numeros negativos");
